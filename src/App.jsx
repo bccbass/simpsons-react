@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import ShowQuote from './ShowQuote'
-import GetCharacter from './getCharacter'
+import GetCharacter from './GetCharacter'
 
 const App = () => {
   const [character, setCharacter] = useState('')
