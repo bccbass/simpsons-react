@@ -11,7 +11,6 @@ const fetchQuote = (name, setter) => {
 const ShowQuote = ({character}) => {
     const [quote, setQuote] = useState()
     useEffect(() => fetchQuote(character, setQuote), [])
-fetchQuote()
   return <>
   <button onClick={() => fetchQuote(character, setQuote)}>Click for a Quote!</button>
 
